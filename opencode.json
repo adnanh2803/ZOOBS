@@ -1,0 +1,12 @@
+{
+	"$schema": "https://opencode.ai/config.json",
+	"permission": {
+		"bash": {
+			"npm run dev*": "allow",
+			"npm run build*": "allow",
+			"npm run check*": "allow",
+			"npx svelte-check*": "allow",
+			"python3 scripts/*": "allow"
+		}
+	}
+}
