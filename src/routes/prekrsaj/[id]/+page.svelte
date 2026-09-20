@@ -82,16 +82,27 @@
 		<Card.Header>
 			<Card.Title>Pravna osnova</Card.Title>
 		</Card.Header>
-		<Card.Content class="space-y-3 text-sm">
-			<div>
-				<p><strong>Norma:</strong> {v.clan_norme}</p>
+		<Card.Content class="space-y-5 text-sm">
+			<section>
+				<h3 class="text-xs font-bold tracking-wide text-muted-foreground uppercase">
+					Šta je zabranjeno?
+				</h3>
+				<p class="mt-1"><strong>Norma:</strong> {v.clan_norme}</p>
 				<p class="text-muted-foreground italic">“{v.citat_norme}”</p>
-			</div>
-			<div>
-				<p><strong>Sankcija:</strong> {v.clan_sankcije}</p>
+			</section>
+			<section>
+				<h3 class="text-xs font-bold tracking-wide text-muted-foreground uppercase">
+					Kolika je kazna?
+				</h3>
+				<p class="mt-1"><strong>Sankcija:</strong> {v.clan_sankcije}</p>
 				<p class="text-muted-foreground italic">“{v.citat_sankcije}”</p>
-			</div>
-			<p class="text-muted-foreground">{v.opis}</p>
+			</section>
+			<section>
+				<h3 class="text-xs font-bold tracking-wide text-muted-foreground uppercase">
+					Dodatne mjere
+				</h3>
+				<p class="mt-1 text-muted-foreground">{v.opis}</p>
+			</section>
 			<p class="text-xs text-muted-foreground">
 				Status: {v.status} · Izvor: {v.source_md} ·
 				<a
