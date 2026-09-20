@@ -54,6 +54,25 @@
 		"status": "potvrdjeno"
 	},
 	{
+		"id": "obijesna-voznja",
+		"naziv": "Obijesna vožnja",
+		"kategorija": "Obijesna vožnja",
+		"keywords": ["obijesna", "obijesno", "bahata", "bahato", "divljanje", "42a", "234b", "kolona", "puna linija"],
+		"clan_norme": "Član 42a.",
+		"citat_norme": "Obijesna vožnja je postupanje vozača koje je u gruboj suprotnosti s pravilima saobraćaja prilikom koje vozač ne pokazuje obzir prema sigurnosti u saobraćaju, odnosno ozbiljno narušava sigurnost u saobraćaju.",
+		"clan_sankcije": "Član 234b. stav (1)",
+		"citat_sankcije": "Novčanom kaznom u iznosu od 2.000,00 KM do 3.000,00 KM kaznit će se za prekršaj vozač motornog vozila koji krajnjom nepažnjom ozbiljno narušava sigurnost drugih učesnika u saobraćaju, na način da se njegovo postupanje karakterizira kao obijesna vožnja (član 42a).",
+		"kazna_min": 2000,
+		"kazna_max": 3000,
+		"bodovi": "2",
+		"zabrana": "6 mj.",
+		"zatvor": "ne",
+		"opis": "2x crveno u 20 min, +40 naselje / +60 van naselja, preticanje kolone preko pune linije, >1,5 g/kg ili droge. Uz nezgodu 3.000–5.000 KM + 9 mj. + 4 boda. Povrat u 2 god.: privremeno oduzimanje vozila.",
+		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-5",
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
+	},
+	{
 		"id": "alkohol-15-plus",
 		"naziv": "Upravljanje vozilom sa preko 1,5 g/kg alkohola",
 		"kategorija": "Alkohol",
@@ -78,16 +97,17 @@
 		"keywords": ["pojas", "sigurnosni", "34", "vezivanje"],
 		"clan_norme": "Član 34. stav (1)",
 		"citat_norme": "Vozač i lica koja se prevoze motornim vozilom dužni su koristiti sigurnosni pojas za vrijeme dok se vozilo kreće u saobraćaju na putu.",
-		"clan_sankcije": "Član 235. stav (1) tačka 1c)",
-		"citat_sankcije": "Novčanom kaznom od 100,00 KM do 300,00 KM kaznit će se vozač ili drugo lice koje se za vrijeme vožnje u motornom vozilu ne veže sigurnosnim pojasom (član 34. stav (1)).",
-		"kazna_min": 100,
-		"kazna_max": 300,
+		"clan_sankcije": "Član 235a. stav (1) tačka 3)",
+		"citat_sankcije": "Novčanom kaznom u iznosu od 200,00 KM do 400,00 KM kaznit će se vozač ili drugo lice koje se za vrijeme vožnje u motornom vozilu ne veže sigurnosnim pojasom (član 34. stav (1)).",
+		"kazna_min": 200,
+		"kazna_max": 400,
 		"bodovi": "0",
 		"zabrana": "nema",
 		"zatvor": "ne",
-		"opis": "Čest prekršaj na kontrolnim tačkama. Kazna i za vozača i za putnika.",
-		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
-		"status": "potvrdjeno"
+		"opis": "Čest prekršaj na kontrolnim tačkama. Kazna i za vozača i za putnika. Uz nezgodu 400–2.000 KM + zabrana 1–6 mj. + 2 boda (čl. 235a st. 2).",
+		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-7",
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
 	},
 	{
 		"id": "alkohol-03-08",
@@ -129,19 +149,20 @@
 		"id": "mobilni",
 		"naziv": "Korištenje mobilnog telefona u vožnji",
 		"kategorija": "Pojas, kaciga i mobilni",
-		"keywords": ["mobilni", "telefon", "mobitel", "33", "uređaj"],
+		"keywords": ["mobilni", "telefon", "mobitel", "33", "uređaj", "pijan", "vozio"],
 		"clan_norme": "Član 33.",
 		"citat_norme": "Vozač se za vrijeme upravljanja vozilom ne smije koristiti mobilnim telefonom niti drugim uređajem na način koji bi umanjio mogućnost reagiranja.",
-		"clan_sankcije": "Član 235. stav (1) tačka 1a)",
-		"citat_sankcije": "Novčanom kaznom od 100,00 KM do 300,00 KM kaznit će se vozač koji prilikom upravljanja vozilom koristi mobilni telefon ili drugi uređaj protivno odredbama člana 33.",
-		"kazna_min": 100,
-		"kazna_max": 300,
+		"clan_sankcije": "Član 235a. stav (1) tačka 1)",
+		"citat_sankcije": "Novčanom kaznom u iznosu od 200,00 KM do 400,00 KM kaznit će se vozač koji prilikom upravljanja vozilom koristi mobilni telefon ili drugi uređaj protivno odredbama člana 33.",
+		"kazna_min": 200,
+		"kazna_max": 400,
 		"bodovi": "0",
 		"zabrana": "nema",
 		"zatvor": "ne",
-		"opis": "Bez hands-free uređaja. Čest uzrok nepažnje.",
-		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
-		"status": "potvrdjeno"
+		"opis": "Bez hands-free uređaja. Uz nezgodu 400–2.000 KM + zabrana 1–6 mj. + 2 boda (čl. 235a st. 2).",
+		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-7",
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
 	},
 	{
 		"id": "crveno-svjetlo",
@@ -169,15 +190,16 @@
 		"clan_norme": "Član 220. st. (1) i (2)",
 		"citat_norme": "Vozač je dužan podvrgnuti se ispitivanju pomoću odgovarajućih sredstava i aparata radi provjere da li ima alkohola u organizmu.",
 		"clan_sankcije": "Član 234a. stav (1) tačka 10)",
-		"citat_sankcije": "Novčanom kaznom od 400,00 KM do 1.000,00 KM kaznit će se vozač koji odbija da se obavi ispitivanje pomoću odgovarajućih sredstava i aparata ili stručni pregled radi provjere alkohola ili opojnih droga (član 220. st. (1) i (2)).",
-		"kazna_min": 400,
+		"citat_sankcije": "Novčanom kaznom od 400,00 KM do 1.000,00 KM kaznit će se vozač koji odbija da se obavi ispitivanje pomoću odgovarajućih sredstava i aparata ili stručni pregled radi provjere alkohola ili opojnih droga (član 220. st. (1) i (2)). Obavezan maksimum (čl. 234a st. 5).",
+		"kazna_min": 1000,
 		"kazna_max": 1000,
 		"bodovi": "2",
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
-		"opis": "Odbijanje se tretira kao najteži alkoholni prekršaj.",
-		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
-		"status": "potvrdjeno"
+		"opis": "Odbijanje se tretira kao najteži alkoholni prekršaj. Obavezna maksimalna kazna 1.000 KM. Zadržavanje do 12 h uz znakove poremećenosti (čl. 224 st. 2). Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
+		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-4",
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
 	},
 	{
 		"id": "bez-dozvole",
@@ -193,9 +215,10 @@
 		"bodovi": "ne",
 		"zabrana": "nema dozvole za oduzimanje",
 		"zatvor": "ne",
-		"opis": "Vožnja bez ikada stečenog prava. Vozilo se isključuje iz saobraćaja.",
+		"opis": "Vožnja bez ikada stečenog prava. Vozilo se isključuje iz saobraćaja. Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
-		"status": "potvrdjeno"
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
 	},
 	{
 		"id": "neregistrovano",
@@ -211,9 +234,10 @@
 		"bodovi": "2",
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
-		"opis": "Granica je 30 dana od isteka potvrde. Tablice i potvrda se oduzimaju.",
+		"opis": "Granica je 30 dana od isteka potvrde. Tablice i potvrda se oduzimaju. Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
-		"status": "potvrdjeno"
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
 	},
 	{
 		"id": "pogresne-tablice",
@@ -229,9 +253,10 @@
 		"bodovi": "2",
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
-		"opis": "Teška zloupotreba identifikacije vozila. Moguća sumnja na krivično djelo.",
+		"opis": "Teška zloupotreba identifikacije vozila. Moguća sumnja na krivično djelo. Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
-		"status": "potvrdjeno"
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
 	},
 	{
 		"id": "dijete-sprijeda",
@@ -312,16 +337,17 @@
 		"keywords": ["antiradar", "radar", "33a", "ometanje", "mjerenje"],
 		"clan_norme": "Član 33a. stav (1)",
 		"citat_norme": "U saobraćaju je zabranjeno koristiti uređaj kojim se može ometati rad uređaja za mjerenje brzine ili dokumentiranje prekršaja.",
-		"clan_sankcije": "Član 235. stav (1) tačka 1b)",
-		"citat_sankcije": "Novčanom kaznom od 100,00 KM do 300,00 KM kaznit će se vozač koji koristi uređaj kojim se može ometati rad uređaja za mjerenje brzine kretanja vozila (član 33a. stav (1)).",
-		"kazna_min": 100,
-		"kazna_max": 300,
+		"clan_sankcije": "Član 235a. stav (1) tačka 2)",
+		"citat_sankcije": "Novčanom kaznom u iznosu od 200,00 KM do 400,00 KM kaznit će se vozač koji koristi uređaj kojim se može ometati rad uređaja za mjerenje brzine kretanja vozila (član 33a. stav (1)).",
+		"kazna_min": 200,
+		"kazna_max": 400,
 		"bodovi": "0",
 		"zabrana": "nema",
 		"zatvor": "ne",
-		"opis": "Uređaj se privremeno oduzima na terenu.",
-		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
-		"status": "potvrdjeno"
+		"opis": "Uređaj se privremeno oduzima na terenu. Uz nezgodu 400–2.000 KM + zabrana 1–6 mj. + 2 boda (čl. 235a st. 2).",
+		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-7",
+		"status": "potvrdjeno",
+		"izmjena": "35/2026"
 	},
 	{
 		"id": "preticanje-desna",

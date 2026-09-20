@@ -35,6 +35,6 @@
 			U slučaju neslaganja, mjerodavan je tekst objavljen u „Službenom glasniku Bosne i
 			Hercegovine“.
 		</p>
-		<p>Izvor: Parlamentarna skupština BiH, lawId=1218. Posljednja provjerena izmjena: novembar 2024.</p>
+		<p>Izvor: Parlamentarna skupština BiH, lawId=1218. Posljednja provjerena izmjena: 35/2026.</p>
 	</footer>
 </div>

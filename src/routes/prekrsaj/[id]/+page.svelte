@@ -29,7 +29,14 @@
 <article class="mt-1 space-y-4">
 	<Card.Root class="border-0 bg-primary text-primary-foreground">
 		<Card.Content class="p-5">
-			<Badge variant="secondary">{v.kategorija}</Badge>
+			<div class="flex flex-wrap items-center gap-2">
+				<Badge variant="secondary">{v.kategorija}</Badge>
+				{#if v.izmjena}
+					<Badge variant="outline" class="border-primary-foreground/40 text-primary-foreground"
+						>🟢 Važeće · Izmijenjeno: {v.izmjena}</Badge
+					>
+				{/if}
+			</div>
 			<h1 class="mt-2 text-2xl font-bold tracking-tight">{v.naziv}</h1>
 			<p class="mt-2 text-4xl font-extrabold tracking-tight">
 				{v.kazna_min === v.kazna_max ? `${v.kazna_min} KM` : `${v.kazna_min}–${v.kazna_max} KM`}
