@@ -28,6 +28,11 @@
 			Za policijske službenike. Upišite pojam, član ili situaciju — npr. “brzina”, “alkohol 1.5”,
 			“pojas”, “član 44”.
 		</p>
+		<p>
+			<a href="{base}/izmjene">
+				<Badge variant="outline" class="h-9 px-3 text-sm">📚 Važeća verzija: 35/2026 — šta je promijenjeno?</Badge>
+			</a>
+		</p>
 	</div>
 
 	<div class="flex flex-col gap-3 sm:flex-row">
