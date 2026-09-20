@@ -20,6 +20,12 @@
 		<p class="mt-2 text-3xl font-extrabold">
 			{v.kazna_min === v.kazna_max ? `${v.kazna_min} KM` : `${v.kazna_min}–${v.kazna_max} KM`}
 		</p>
+		{#if v.kazna_min !== v.kazna_max}
+			<p class="mt-2 text-xs text-slate-300">
+				Tačan iznos u rasponu određuje policijski službenik prekršajnim nalogom ili sud za
+				prekršaje.
+			</p>
+		{/if}
 		<div class="mt-3 grid grid-cols-3 gap-2 text-center text-sm">
 			<div class="rounded-lg bg-white/10 p-2">
 				<p class="text-xs text-slate-300">Bodovi</p>
