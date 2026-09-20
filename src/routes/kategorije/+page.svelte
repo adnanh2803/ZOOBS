@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { violations } from '$lib/search';
 	import { KATEGORIJE } from '$lib/types';
 </script>
@@ -9,7 +10,7 @@
 		{@const n = violations.filter((v) => v.kategorija === k).length}
 		<li>
 			<a
-				href={`/?kat=${encodeURIComponent(k)}`}
+				href={`${base}/?kat=${encodeURIComponent(k)}`}
 				class="block rounded-xl border bg-white p-4 shadow-sm hover:border-blue-600"
 			>
 				<span class="text-lg font-semibold">{k}</span>

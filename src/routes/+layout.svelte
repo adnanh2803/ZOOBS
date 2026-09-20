@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { base } from '$app/paths';
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
@@ -17,10 +18,10 @@
 <div class="min-h-screen bg-slate-100 text-slate-900">
 	<header class="sticky top-0 z-10 border-b bg-slate-900 text-white">
 		<div class="mx-auto flex max-w-4xl items-center justify-between gap-2 px-3 py-3 sm:px-4">
-			<a href="/" class="truncate text-base font-bold sm:text-lg">🚔 Saobraćajni priručnik BiH</a>
+			<a href="{base}/" class="truncate text-base font-bold sm:text-lg">🚔 Saobraćajni priručnik BiH</a>
 			<nav class="flex shrink-0 gap-3 text-sm">
-				<a href="/" class="underline-offset-4 hover:underline">Pretraga</a>
-				<a href="/kategorije" class="underline-offset-4 hover:underline">Kategorije</a>
+				<a href="{base}/" class="underline-offset-4 hover:underline">Pretraga</a>
+				<a href="{base}/kategorije" class="underline-offset-4 hover:underline">Kategorije</a>
 			</nav>
 		</div>
 	</header>

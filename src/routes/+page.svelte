@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { searchViolations } from '$lib/search';
 	import { KATEGORIJE } from '$lib/types';
 
@@ -37,7 +38,7 @@
 		{#each results as v}
 			<li>
 				<a
-					href={`/prekrsaj/${v.id}`}
+					href={`${base}/prekrsaj/${v.id}`}
 					class="block rounded-xl border bg-white p-4 shadow-sm transition hover:border-blue-600"
 				>
 					<div class="flex items-center justify-between gap-2">

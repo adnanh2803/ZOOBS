@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	let { data } = $props();
 	let v = $derived(data.v);
 	let copied = $state(false);
@@ -11,7 +13,7 @@
 	}
 </script>
 
-<a href="/" class="text-sm text-blue-700 hover:underline">← Nazad na pretragu</a>
+<a href="{base}/" class="text-sm text-blue-700 hover:underline">← Nazad na pretragu</a>
 
 <article class="mt-3 space-y-4">
 	<div class="rounded-xl bg-slate-900 p-5 text-white">
