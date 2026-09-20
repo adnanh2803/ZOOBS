@@ -19,6 +19,8 @@ export interface Violation {
 	izmjena?: string;
 	/** Related ZOBS articles shown as tappable chips (each verified in source MD). */
 	povezano?: string[];
+	/** Ordered roadside procedure reminder; every step cites a verified ZOBS article. */
+	postupanje?: string[];
 }
 
 export const KATEGORIJE = [

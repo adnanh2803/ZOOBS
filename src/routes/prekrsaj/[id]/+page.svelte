@@ -78,6 +78,22 @@
 		</Card.Content>
 	</Card.Root>
 
+	{#if v.postupanje?.length}
+		<Card.Root>
+			<Card.Header>
+				<Card.Title>Šta da radim?</Card.Title>
+				<Card.Description>Pomoćni podsjetnik — provjeri prema važećem službenom postupku.</Card.Description>
+			</Card.Header>
+			<Card.Content>
+				<ol class="list-decimal space-y-2 pl-5 text-sm">
+					{#each v.postupanje as korak}
+						<li>{korak}</li>
+					{/each}
+				</ol>
+			</Card.Content>
+		</Card.Root>
+	{/if}
+
 	<Card.Root>
 		<Card.Header>
 			<Card.Title>Pravna osnova</Card.Title>
