@@ -7,12 +7,20 @@
 	let { data } = $props();
 	let v = $derived(data.v);
 	let copied = $state(false);
+	let copiedOsnov = $state(false);
 
 	async function copyReport() {
 		const txt = `${v.naziv}\n${v.clan_norme} -> ${v.clan_sankcije}\nKazna: ${v.kazna_min}-${v.kazna_max} KM\nBodovi: ${v.bodovi}\nZabrana: ${v.zabrana}`;
 		await navigator.clipboard.writeText(txt);
 		copied = true;
 		setTimeout(() => (copied = false), 2000);
+	}
+
+	async function copyOsnov() {
+		const txt = `${v.clan_sankcije} Zakona o osnovama sigurnosti saobraćaja na putevima u Bosni i Hercegovini\nU vezi s ${v.clan_norme} istog Zakona.`;
+		await navigator.clipboard.writeText(txt);
+		copiedOsnov = true;
+		setTimeout(() => (copiedOsnov = false), 2000);
 	}
 </script>
 
@@ -52,6 +60,13 @@
 				class="mt-4 h-12 w-full text-base font-semibold"
 			>
 				{copied ? 'Kopirano ✓' : 'Kopiraj za zapisnik'}
+			</Button>
+			<Button
+				variant="outline"
+				onclick={copyOsnov}
+				class="mt-2 h-12 w-full border-primary-foreground/30 bg-transparent text-base text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
+			>
+				{copiedOsnov ? 'Kopirano ✓' : '📋 Kopiraj pravni osnov'}
 			</Button>
 		</Card.Content>
 	</Card.Root>
