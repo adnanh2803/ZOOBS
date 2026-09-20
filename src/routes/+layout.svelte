@@ -29,10 +29,12 @@
 	<main class="mx-auto max-w-4xl px-4 py-6">
 		{@render children()}
 	</main>
-	<footer class="mx-auto max-w-4xl px-4 pb-10 text-xs text-muted-foreground">
+	<footer class="mx-auto max-w-4xl space-y-1 px-4 pb-10 text-xs text-muted-foreground">
 		<p>
-			Informativno. Mjerodavan je Službeni glasnik BiH. Izvor: Parlamentarna skupština BiH,
-			lawId=1218, Neslužbeni prečišćeni tekst novembar 2024.
+			⚠️ Pravna napomena: aplikacija služi kao pomoćno sredstvo za brzo pronalaženje propisa.
+			U slučaju neslaganja, mjerodavan je tekst objavljen u „Službenom glasniku Bosne i
+			Hercegovine“.
 		</p>
+		<p>Izvor: Parlamentarna skupština BiH, lawId=1218. Posljednja provjerena izmjena: novembar 2024.</p>
 	</footer>
 </div>
