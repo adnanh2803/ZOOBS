@@ -1,0 +1,1 @@
+var e=[`Brzina`,`Alkohol`,`Obijesna vožnja`,`Dokumenti i registracija`,`Signalizacija i parkiranje`,`Pojas, kaciga i mobilni`];export{e as t};
