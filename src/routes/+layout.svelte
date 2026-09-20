@@ -3,12 +3,38 @@
 	import { base } from '$app/paths';
 	import { Button } from '$lib/components/ui/button';
 	import favicon from '$lib/assets/favicon.svg';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
+	let installEvt = $state<(Event & { prompt: () => Promise<void> }) | null>(null);
+
+	onMount(() => {
+		window.addEventListener('beforeinstallprompt', (e) => {
+			e.preventDefault();
+			installEvt = e as Event & { prompt: () => Promise<void> };
+		});
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register(`${base}/sw.js`).catch(() => {
+				// Offline unavailable (e.g. dev server) — app still works online.
+			});
+		}
+	});
+
+	async function installApp() {
+		if (!installEvt) return;
+		await installEvt.prompt();
+		installEvt = null;
+	}
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<link rel="manifest" href="{base}/manifest.webmanifest" />
+	<link rel="apple-touch-icon" href="{base}/icons/icon-180.png" />
+	<meta name="theme-color" content="#171717" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<title>Saobraćajni priručnik BiH — brza pretraga prekršaja</title>
 	<meta
 		name="description"
@@ -36,5 +62,12 @@
 			Hercegovine“.
 		</p>
 		<p>Izvor: Parlamentarna skupština BiH, lawId=1218. Posljednja provjerena izmjena: 35/2026.</p>
+		{#if installEvt}
+			<p>
+				<Button variant="outline" size="sm" onclick={installApp} class="h-11">
+					📲 Instaliraj aplikaciju (offline)
+				</Button>
+			</p>
+		{/if}
 	</footer>
 </div>
