@@ -17,6 +17,8 @@ export interface Violation {
 	status: 'potvrdjeno' | 'nacrt';
 	/** Glasnik amendment that last changed this entry, e.g. "35/2026". Absent = Nov-2024 text. */
 	izmjena?: string;
+	/** Related ZOBS articles shown as tappable chips (each verified in source MD). */
+	povezano?: string[];
 }
 
 export const KATEGORIJE = [

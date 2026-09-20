@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { base } from '$app/paths';
 	import { Badge } from '$lib/components/ui/badge';
 	import { Button } from '$lib/components/ui/button';
@@ -9,6 +10,14 @@
 
 	let q = $state('');
 	let kat = $state('');
+	// Deep links: detail "Povezano" chips and kategorije cards navigate to /?q= / ?kat=.
+	// Sync on URL change (same-route client nav reuses the component instance).
+	$effect(() => {
+		const uq = page.url.searchParams.get('q');
+		if (uq !== null && uq !== q) q = uq;
+		const uk = page.url.searchParams.get('kat');
+		if (uk !== null && uk !== kat) kat = uk;
+	});
 	let results = $derived(searchViolations(q, kat));
 </script>
 

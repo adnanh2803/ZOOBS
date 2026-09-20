@@ -14,6 +14,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Najblaži stepen prekoračenja brzine. Fiksna kazna 50 KM.",
+		"povezano": ["Član 43.", "Član 44.", "Član 46."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-237",
 		"status": "potvrdjeno"
 	},
@@ -32,6 +33,7 @@
 		"zabrana": "1–4 mj.",
 		"zatvor": "ne",
 		"opis": "Srednji stepen prekoračenja brzine, bez razlike naselje / van naselja.",
+		"povezano": ["Član 43.", "Član 44.", "Član 46.", "Član 222."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
 		"status": "potvrdjeno"
 	},
@@ -50,6 +52,7 @@
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
 		"opis": "Najteži stepen prekoračenja brzine. Visoka novčana kazna.",
+		"povezano": ["Član 43.", "Član 44.", "Član 46.", "Član 42a."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
 		"status": "potvrdjeno"
 	},
@@ -68,6 +71,7 @@
 		"zabrana": "6 mj.",
 		"zatvor": "ne",
 		"opis": "2x crveno u 20 min, +40 naselje / +60 van naselja, preticanje kolone preko pune linije, >1,5 g/kg ili droge. Uz nezgodu 3.000–5.000 KM + 9 mj. + 4 boda. Povrat u 2 god.: privremeno oduzimanje vozila.",
+		"povezano": ["Član 42a.", "Član 44.", "Član 46.", "Član 174.", "Član 220.", "Član 224.", "Član 244."],
 		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-5",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -87,6 +91,7 @@
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
 		"opis": "Najteži alkoholni prekršaj. Obavezno isključenje iz saobraćaja na terenu.",
+		"povezano": ["Član 174.", "Član 220.", "Član 224.", "Član 42a."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
 		"status": "potvrdjeno"
 	},
@@ -105,6 +110,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Čest prekršaj na kontrolnim tačkama. Kazna i za vozača i za putnika. Uz nezgodu 400–2.000 KM + zabrana 1–6 mj. + 2 boda (čl. 235a st. 2).",
+		"povezano": ["Član 34.", "Član 34a."],
 		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-7",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -124,6 +130,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Najblaži alkoholni prekršaj. Donja granica kažnjivosti 0,3 promila.",
+		"povezano": ["Član 174.", "Član 220.", "Član 224."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-236",
 		"status": "potvrdjeno"
 	},
@@ -142,6 +149,7 @@
 		"zabrana": "1–4 mj.",
 		"zatvor": "ne",
 		"opis": "Srednji alkoholni prekršaj. Uz nezgodu moguća zabrana.",
+		"povezano": ["Član 174.", "Član 220.", "Član 224."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
 		"status": "potvrdjeno"
 	},
@@ -160,6 +168,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Bez hands-free uređaja. Uz nezgodu 400–2.000 KM + zabrana 1–6 mj. + 2 boda (čl. 235a st. 2).",
+		"povezano": ["Član 33.", "Član 33a."],
 		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-7",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -179,6 +188,7 @@
 		"zabrana": "1–4 mj.",
 		"zatvor": "ne",
 		"opis": "Težak prekršaj signalizacije. Uz nezgodu zabrana.",
+		"povezano": ["Član 51.", "Član 42a."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
 		"status": "potvrdjeno"
 	},
@@ -197,6 +207,7 @@
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
 		"opis": "Odbijanje se tretira kao najteži alkoholni prekršaj. Obavezna maksimalna kazna 1.000 KM. Zadržavanje do 12 h uz znakove poremećenosti (čl. 224 st. 2). Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
+		"povezano": ["Član 220.", "Član 221.", "Član 174.", "Član 224."],
 		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-4",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -216,6 +227,7 @@
 		"zabrana": "nema dozvole za oduzimanje",
 		"zatvor": "ne",
 		"opis": "Vožnja bez ikada stečenog prava. Vozilo se isključuje iz saobraćaja. Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
+		"povezano": ["Član 184.", "Član 187.", "Član 172."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -235,6 +247,7 @@
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
 		"opis": "Granica je 30 dana od isteka potvrde. Tablice i potvrda se oduzimaju. Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
+		"povezano": ["Član 207.", "Član 211.", "Član 208."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -254,6 +267,7 @@
 		"zabrana": "2–6 mj.",
 		"zatvor": "ne",
 		"opis": "Teška zloupotreba identifikacije vozila. Moguća sumnja na krivično djelo. Moguće trajno oduzimanje vozila (čl. 234a st. 4).",
+		"povezano": ["Član 209.", "Član 210.", "Član 207."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -273,6 +287,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Zaštita djece. Izuzetno visoka kazna za ovu kategoriju.",
+		"povezano": ["Član 34.", "Član 34a."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
 		"status": "potvrdjeno"
 	},
@@ -291,6 +306,7 @@
 		"zabrana": "moguća",
 		"zatvor": "ne",
 		"opis": "Ima dozvolu, ali ne za tu kategoriju. Razlikovati od vožnje bez dozvole.",
+		"povezano": ["Član 187.", "Član 184.", "Član 172."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
 		"status": "potvrdjeno"
 	},
@@ -309,6 +325,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Fiksna kazna. Odnosi se i na putnika na motociklu.",
+		"povezano": ["Član 102.", "Član 99.", "Član 100.", "Član 101."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-237",
 		"status": "potvrdjeno"
 	},
@@ -327,6 +344,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Opća klauzula za blokiranje puta i uništavanje signalizacije.",
+		"povezano": ["Član 3.", "Član 19.", "Član 26."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-234a",
 		"status": "potvrdjeno"
 	},
@@ -345,6 +363,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Uređaj se privremeno oduzima na terenu. Uz nezgodu 400–2.000 KM + zabrana 1–6 mj. + 2 boda (čl. 235a st. 2).",
+		"povezano": ["Član 33a.", "Član 33."],
 		"source_md": "docs/zobs-2026-35-26-izmjene.md#clan-7",
 		"status": "potvrdjeno",
 		"izmjena": "35/2026"
@@ -364,6 +383,7 @@
 		"zabrana": "do 2 mj. uz nezgodu",
 		"zatvor": "ne",
 		"opis": "Tipično na autoputu i brzim cestama.",
+		"povezano": ["Član 58.", "Član 60.", "Član 61.", "Član 42a."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-235",
 		"status": "potvrdjeno"
 	},
@@ -382,6 +402,7 @@
 		"zabrana": "nema",
 		"zatvor": "ne",
 		"opis": "Uklanjanje vozila nakon nezgode ili kvara bez odlaganja.",
+		"povezano": ["Član 26.", "Član 70.", "Član 77."],
 		"source_md": "docs/zobs-2024-02-kaznene.md#clan-236",
 		"status": "potvrdjeno"
 	}

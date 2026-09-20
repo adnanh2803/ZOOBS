@@ -103,6 +103,20 @@
 				</h3>
 				<p class="mt-1 text-muted-foreground">{v.opis}</p>
 			</section>
+			{#if v.povezano?.length}
+				<section>
+					<h3 class="text-xs font-bold tracking-wide text-muted-foreground uppercase">
+						Povezani članovi
+					</h3>
+					<div class="mt-2 flex flex-wrap gap-2">
+						{#each v.povezano as p}
+							<a href={`${base}/?q=${encodeURIComponent(p)}`}>
+								<Badge variant="outline" class="h-9 px-3 text-sm">{p}</Badge>
+							</a>
+						{/each}
+					</div>
+				</section>
+			{/if}
 			<p class="text-xs text-muted-foreground">
 				Status: {v.status} · Izvor: {v.source_md} ·
 				<a
